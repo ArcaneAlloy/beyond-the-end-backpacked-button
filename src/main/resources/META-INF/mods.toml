@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="btebackpackbutton"
+version="${file.jarVersion}"
+displayName="Beyond The End - Backpacked Inventory Button"
+authors="ArcaneAlloy"
+description='''
+Adds a button to the inventory that opens the backpack from Backpacked.
+With Quark installed, the backpack also gets Quark's chest buttons (search, sort, insert, extract).
+'''
+# Solo cliente: el botón envía el mensaje de Backpacked para abrir la mochila, el servidor no necesita este mod
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.btebackpackbutton]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.btebackpackbutton]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.btebackpackbutton]]
+    modId="backpacked"
+    mandatory=true
+    versionRange="[2.1,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.btebackpackbutton]]
+    modId="quark"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="CLIENT"

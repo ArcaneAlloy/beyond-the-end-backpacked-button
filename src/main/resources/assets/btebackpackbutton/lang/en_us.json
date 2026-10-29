@@ -1,0 +1,5 @@
+{
+  "gui.btebackpackbutton.open": "Open backpack",
+  "gui.btebackpackbutton.no_backpack": "You are not wearing a backpack",
+  "gui.btebackpackbutton.key": "Key: %s"
+}

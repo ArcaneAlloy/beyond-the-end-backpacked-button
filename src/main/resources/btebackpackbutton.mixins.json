@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.arcanealloy.btebackpackbutton.mixin",
+  "plugin": "com.arcanealloy.btebackpackbutton.mixin.BteBackpackMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BackpackScreenQuarkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
